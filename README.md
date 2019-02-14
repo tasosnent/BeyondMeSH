@@ -40,9 +40,11 @@ Example call:
 
 > python3.6 Pipeline.py
 
-The results will be stored in this folder (where baseFolder is the absolute path provided in the configuration above): 
+The results will be stored in this folder: 
 
 > baseFolder\FinalSplit\AD
+
+Where baseFolder is the absolute path provided in the configuration above.
 
 * Execution of model development and evaluation step should result in the creation of corresponding CSV files with performance metrics for the models developed. The CSV files will be named **ScoresPerDataset_D.csv** and **socresPerDatasetPerLabel_D.csv**, where D can take values 'MA1' or 'MA2' depending on the dataset configured as testset (e.g. ScoresPerDataset_MA1.csv and socresPerDatasetPerLabel_MA1.csv). 
 * Execution of data processing steps should result in the creation of corresponding intermediate files. (Like the pre-processed ones provided [here](https://owncloud.skel.iit.demokritos.gr/index.php/s/UKy3DZjTzuk8xUn)

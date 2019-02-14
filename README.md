@@ -40,7 +40,7 @@ Example call:
 
 > python3.6 Pipeline.py
 
-The results of the execution will be stored in this folder (where baseFolder is the absolute path provided in the configuration above): 
+The results will be stored in this folder (where baseFolder is the absolute path provided in the configuration above): 
 
 > baseFolder\FinalSplit\AD
 

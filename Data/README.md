@@ -1,6 +1,7 @@
-# Input datasets for the pipeline of the fine-graind semantic indexing pipeline.
+# Data for fine-graind semantic indexing for Alzheimer's Disease.
 
-* The files included in this folder:
+## Input datasets for the pipeline
+The files included in this folder:
 	* AD_abstract.csv	:		A CSV file with the initial dataset of articles anotated with AD descriptor (D000544) on 17/4/29018. 
 								Includes the following collumns:
 									pmid			:	The unique identifier of the article in PubMed
@@ -33,4 +34,6 @@
  	* MA2_pmids.txt		: 	A list of the pmids of the articles included in MA2 dataset.
 
 ## Pre-processed data
-The processed dataset for direct development of the fine-graind semantic indexing models are available [here](https://owncloud.skel.iit.demokritos.gr/index.php/s/UKy3DZjTzuk8xUn) as a zipped file (1.1 Gb) and [here](https://owncloud.skel.iit.demokritos.gr/index.php/s/UKy3DZjTzuk8xUn) as unziped folders for selective download of specific subfolders or files.
+The processed dataset for direct development of the fine-graind semantic indexing models are available:
+	* [here](https://owncloud.skel.iit.demokritos.gr/index.php/s/UKy3DZjTzuk8xUn) as a zipped file (1.1 Gb) and 
+	* [here](https://owncloud.skel.iit.demokritos.gr/index.php/s/UKy3DZjTzuk8xUn) as unziped folders for selective download of specific subfolders or files.

@@ -77,3 +77,7 @@ Where *baseFolder* is the absolute path provided in the configuration above and 
 * Execution of model development and evaluation step should result in the creation of corresponding CSV files with performance metrics for the models developed. The CSV files will be named **ScoresPerDataset_*D*_*C*.csv** and **socresPerDatasetPerLabel_*D*_*C*.csv**, where *D* can take values 'MA1' or 'MA2' depending on the dataset configured as testset and *C* is the regularization level for Logistic Regression models (e.g. ScoresPerDataset_MA1_1.csv and socresPerDatasetPerLabel_MA1_1.csv).
     * For iteration experiments the corresponding CSV files will be named **ScoresPerDataset_*D*\_*C*\_*I*.csv** and **socresPerDatasetPerLabel_*D*\_*C*\_*I*.csv**, where *I* will be the number of corresponding iteration (i.e. ScoresPerDataset_MA1_1_0.csv for the first iteration, ScoresPerDataset_MA1_1_1.csv for the second one etc).
 * Execution of data processing steps should result in the creation of corresponding intermediate files. (Like the pre-processed ones provided [here](https://owncloud.skel.iit.demokritos.gr/index.php/s/cQvY1reNrFdYSZF) and [here](https://owncloud.skel.iit.demokritos.gr/index.php/s/AfEgLnVPoD2mDfO) 
+
+## Reference
+
+Nentidis, A., Krithara, A., Tsoumakas, G., & Paliouras, G. (2019). Beyond MeSH: Fine-Grained Semantic Indexing of Biomedical Literature Based on Weak Supervision. In 2019 IEEE 32nd International Symposium on Computer-Based Medical Systems (CBMS) (pp. 180–185). IEEE. https://doi.org/10.1109/CBMS.2019.00045

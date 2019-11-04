@@ -12,7 +12,7 @@ In particular, it includes:
 
 ## How to use
 
-## Requirements
+### Requirements
 The script is written in Python 3.6.
 
 All libraries and versions required are listed in requirements.txt.
